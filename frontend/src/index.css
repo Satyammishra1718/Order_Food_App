@@ -1,0 +1,157 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'NHaasGroteskDSPro-65Md' !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.custom-btn {
+  background-color: white !important;
+  color: #218838 !important;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-btn:hover {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.custom1-btn {
+  background-color: white !important;
+  color: red !important;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.custom1-btn:hover {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+/* underline effect navbar */
+
+.nav-hover {
+  position: relative;
+}
+
+.nav-hover::before {
+  content: '';
+  position: absolute;
+  bottom: 6px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.8s; /* Adjust the duration as needed */
+}
+
+.nav-hover:hover::before {
+  width: 100%;
+}
+
+.custom-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .cancelButton {
+    transform: translateX(-65%);
+    margin-top: 10px;
+  }
+}
+
+.no-orders-message {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #df2828;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .mobile_form_signup_log {
+    width: 90% !important;
+    max-width: 550px !important; /* Adjust this value based on your design */
+    margin: auto !important; /* Center the form */
+    margin-top: 20px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile_error {
+    width: 90% !important;
+    margin: auto !important;
+    margin-top: 10px !important;
+    color: red;
+    font-size: 25px ;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile_navbar {
+     margin-top: 14px !important;
+  }
+}
+
+.laptop_error {
+    color: red;
+    font-size: 25px ;
+}
+
+@media (max-width: 768px) {
+  .img_signup {
+    background-size: cover !important;
+    background-position: center !important; 
+    height: 100vh !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .img_log{
+    background-size: auto !important;
+    height: 100vh !important;
+    background-position: 85% 50px !important; 
+  }
+}
+
+@media (max-width: 768px) {
+  .mob_img{
+    width: 400px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .mob_nav{
+    width: 400px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .mob_msg{
+    width: 400px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .mob_footer{
+    width: 375px !important;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mob_orders{
+    margin-left: 20px;
+  }
+}
